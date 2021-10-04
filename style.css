@@ -44,7 +44,9 @@ body {
   margin: 30px 0;
   line-height: 20px;
 }
-
+.card div.img {
+  width: 100%
+}
 
 @media (max-width: 800px) {
   .flex-container {
