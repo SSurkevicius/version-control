@@ -20,7 +20,7 @@ body {
   background: linear-gradient(#8e73c2, #5675b6);
 }
 
-.plan {
+.card {
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -33,51 +33,25 @@ body {
   font-weight: bold;
 }
 
-.plan h2 {
+.card h2 {
   color: white;
   margin: 30px 0;
   text-transform: uppercase;
   text-shadow: 0 0 5px grey;
 }
 
-.plan p {
+.card p {
   margin: 30px 0;
   line-height: 20px;
 }
 
-.plan ul {
-  list-style: none;
-}
-
-.plan ul li {
-  border-bottom: 1px solid rgb(0, 0,0, 0.1);
-  padding: 10px 0;
-}
-
-.plan ul li:last-of-type {
-  border-bottom: none;
-}
-
-.plan .price {
-  font-size: 45px;
-  font-weight: normal;
-}
-
-.plan a {
-  text-decoration: none;
-  color: black;
-  background: yellow;
-  padding: 10px 30px;
-  border-radius: 8px;
-  box-shadow: 0 0 5px grey;
-}
 
 @media (max-width: 800px) {
   .flex-container {
     height: 100%;
     flex-direction: column;
   }
-  .plan {
+  .card {
     width: 80%;
   }
 }
