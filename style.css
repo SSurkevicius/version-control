@@ -12,7 +12,6 @@ html {
   display: grid;
   justify-content: center;
   align-content: center;
-  cursor: pointer;
   grid-template-columns: repeat (6, 1fr);
   margin-left: 100px;
   margin-top: 30px;
@@ -27,6 +26,7 @@ html {
       "hw2 hw2 hw2 hw2 hw5 hw5"
       "hw2 hw2 hw2 hw2 hw6 hw6"
       "hw2 hw2 hw2 hw2 hw7 hw7";
+      cursor: pointer;
 }
 .card{
   display: flex;
