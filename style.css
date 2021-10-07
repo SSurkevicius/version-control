@@ -9,8 +9,7 @@ html {
 }
 
 .wrapper {
-  max-width: 1200px;
-  min-width: 320px;
+
   display: grid;
   justify-content: center;
   align-content: center;
